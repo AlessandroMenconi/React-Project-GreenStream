@@ -1,0 +1,66 @@
+.banner-rt {
+    padding: 40px 0;
+    &_text {
+        div {
+            padding-right: 80px;
+
+            h2 {
+                font-size: 49px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+
+            p {
+                font-size: 25px;
+            }
+        }
+    }
+
+    &_image {
+        height: 390px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        img {
+            height: 100%;
+            z-index: 20;
+            
+        }
+        .mobile{
+            border-radius: 50px 50px 0 0 ;
+            border-top: 7px solid rgb(32, 31, 31);
+            border-left: 7px solid rgb(32, 31, 31);
+            border-right: 7px solid rgb(32, 31, 31);
+        }
+        .download-card {
+            height: 105px;
+            border: 2px solid #ffffff40;
+            background-color: #000;
+            position: absolute;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            border-radius: 12px;
+            padding: 10px;
+            bottom: 6%;
+            .gif-download {
+                height: 65%;
+            }
+        }
+    }
+}
+
+.banner-rt.kids {
+    .banner-rt_image {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .banner-rt_text {
+        div {
+            padding: 0;
+        }
+    }
+}

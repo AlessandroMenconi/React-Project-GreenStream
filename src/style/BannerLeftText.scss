@@ -1,0 +1,53 @@
+.banner-lt {
+    padding: 40px 0;
+
+    &_text {
+        div {
+            padding-left: 80px;
+
+            h2 {
+                font-size: 49px;
+                font-weight: 600;
+                padding-bottom: 10px;
+            }
+
+            p {
+                font-size: 25px;
+            }
+        }
+    }
+
+    &_image {
+        height: 390px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        img {
+            height: 100%;
+            z-index: 20;
+        }
+
+        video {
+            height: 218px;
+            position: absolute;
+            transform: translate(-2px, 69px);
+        }
+    }
+}
+
+.banner-lt.devices {
+    video {
+        height: 237px;
+        position: absolute;
+        transform: translate(-3px, 44px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .banner-lt_text {
+        div {
+            padding: 0;
+        }
+    }
+}

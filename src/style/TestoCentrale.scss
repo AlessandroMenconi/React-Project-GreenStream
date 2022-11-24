@@ -1,0 +1,54 @@
+#email-form {
+    width: 650px;
+    height: 70px;
+    margin: auto;
+}
+
+.testiTitolo {
+    text-shadow: 1px 1px #198754;
+    color:white;
+    font-size: 62px;
+    font-weight: 600;
+}
+
+.sottoTitolo {
+    text-shadow: 1px 1px #198754;
+
+    font-size: 25px;
+}
+
+.sottoTitolo2 {
+    text-shadow: 1px 1px #198754;
+    
+    font-size: 19px;
+}
+.text-white{
+    text-shadow: 1px 1px #198754;
+}
+#button-addon2 {
+  
+    width: 150px;
+    font-size: 20px;
+}
+
+.z-index-max {
+    z-index: 10;
+}
+
+@media screen and (max-width: 762px) {
+    #email-form {
+        width: 520px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    #email-form {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #email-form {
+        width: 440px;
+    }
+}

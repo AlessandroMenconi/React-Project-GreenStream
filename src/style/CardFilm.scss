@@ -1,0 +1,28 @@
+.hoverCard:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+
+}
+
+.button-card {
+    height: 37px;
+    position: absolute;
+    bottom: -7px;
+    width: 283px;
+
+}
+
+.button-card:focus {
+    box-shadow: none !important;
+}
+
+.modal>* {
+    color: #fff;
+}
+
+.divBottoni {
+    display: none;
+}
